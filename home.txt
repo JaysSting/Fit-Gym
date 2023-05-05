@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fit Gym - Home</title>
+    <link rel="stylesheet" href="css/home.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a href="locations.html">Locations</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Welcome to Fit Gym</h1>
+      <p>Get fit and stay healthy with our state-of-the-art gym facilities and expert trainers.</p>
+      <a href="#plans">View Our Plans</a>
+    </section>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>
+          <img src="images/equipment.jpg" alt="Gym Equipment">
+          <h3>Gym Equipment</h3>
+          <p>We have a wide variety of high-quality gym equipment to help you get the most out of your workout.</p>
+        </li>
+        <li>
+          <img src="images/trainer.jpg" alt="Personal Trainer">
+          <h3>Personal Trainers</h3>
+          <p>Our expert trainers are here to help you achieve your fitness goals and stay motivated.</p>
+        </li>
+        <li>
+          <img src="images/group.jpg" alt="Group Fitness">
+          <h3>Group Fitness</h3>
+          <p>Join one of our group fitness classes to get in shape and meet new people.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="plans" class="plans">
+      <h2>Our Plans</h2>
+      <ul>
+        <li>
+          <h3>Basic</h3>
+          <p>Access to gym facilities and equipment</p>
+          <p>Price: $20/month</p>
+          <a href="member-login.html">Sign Up</a>
+        </li>
+        <li>
+          <h3>Premium</h3>
+          <p>Access to gym facilities and equipment</p>
+          <p>5 personal training sessions per month</p>
+          <p>Price: $50/month</p>
+          <a href="member-login.html">Sign Up</a>
+        </li>
+        <li>
+          <h3>Platinum</h3>
+          <p>Access to gym facilities and equipment</p>
+          <p>10 personal training sessions per month</p>
+          <p>Unlimited group fitness classes</p>
+          <p>Price: $100/month</p>
+          <a href="member-login.html">Sign Up</a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Fit Gym. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/home.js"></script>
+  </body>
+</html>
+
+   

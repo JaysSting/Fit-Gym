@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Locations | Gym Name</title>
+	<link rel="stylesheet" type="text/css" href="location.css">
+	<script src="location.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap" async defer></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="plans.html">Plans</a></li>
+				<li><a href="location.html">Locations</a></li>
+				<li><a href="memberlogin.html">Sign Up</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<h1>Locations</h1>
+		
+		<main>
+		<section class="locations">
+			<h1>Our Gym Locations</h1>
+			<div class="location">
+				<h2>Downtown Branch</h2>
+				<p>123 Main St.</p>
+				<p>City, State ZIP</p>
+			</div>
+			<div class="location">
+				<h2>Westchester County</h2>
+				<p>456 Elm St.</p>
+				<p>City, State ZIP</p>
+			</div>
+			<div class="location">
+				<h2>The Bronx</h2>
+				<p>789 Oak St.</p>
+				<p>City, State ZIP</p>
+			</div>
+		</section>
+	</main>
+		
+		<section>
+			<h2>Contact Us</h2>
+			<form id="contact-form">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				
+				<button type="submit">Submit</button>
+<form onsubmit="return submitForm()">
+  <!-- form fields here -->
+
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Fit Gym. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>

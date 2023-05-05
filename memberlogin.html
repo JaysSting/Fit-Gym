@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Member Login</title>
+    <link rel="stylesheet" type="text/css" href="member.css">
+  </head>
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="plans.html">Plans</a></li>
+      <li><a href="memberlogin.html">Member Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <body>
+  <div class="signup-container">
+  <h2>Sign Up</h2>
+  <form id="signup-form" method="post">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+    </div>
+    <div class="form-group">
+      <button type="submit">Sign Up</button>
+    </div>
+<div>
+<label for="comment">Comments:</label>
+  <textarea id="comment" name="comment"></textarea>
+</div>
+  <button type="submit">Submit</button>
+  </form>
+  <div id="error-message"></div>
+</div>
+<footer>
+      <p>&copy; 2023 Fit Gym. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
